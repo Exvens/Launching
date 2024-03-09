@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to right, #fff 50%, #cfe3ff 50%);
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.time {
+    margin: 0 10px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 24px;
+    min-width: 50px;
+}
+
+#email-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    background-image: url('image/pexels-spacex-23764.jpg');
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #003366;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
